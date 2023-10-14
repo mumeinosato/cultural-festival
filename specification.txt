@@ -1,0 +1,19 @@
+言語
+    TypeScript
+Node.js
+データ
+    PostgreSQL
+(Redis)
+(Bull)
+バックエンド
+    (Nest.js)
+    WEB実装
+        Fastify
+フロントエンド
+    Vue.js
+    ビルドツール
+        Vite         
+
+
+pnpm start
+sudo /etc/init.d/postgresql restart; sudo service redis-server start                   
