@@ -1,11 +1,12 @@
 {
-  "name": "sns",
+  "name": "cultural-festival",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm -r run start"
+    "start": "pnpm -r run start",
+    "install": "pnpm -r install"
   },
   "keywords": [],
   "author": "",
