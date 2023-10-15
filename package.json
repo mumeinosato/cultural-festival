@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pnpm -r run start",
-    "install": "pnpm -r install"
+    "install": "pnpm -r install",
+    "update": "pnpm -r update"
   },
   "keywords": [],
   "author": "",

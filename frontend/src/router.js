@@ -8,6 +8,7 @@ const routes = [
     path: "/",
     name: "Index",
     component: Index,
+    //meta : {title: '文化祭'}
   },
   {
     path: "/profile",
@@ -24,6 +25,15 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes
+});
+
+const DEFAULT_TITLE = '文化祭'
+
+router.afterEach((to) => {
+  const title = to.meta.title
+    ? `${to.meta.title} | ${DEFAULT_TITLE}`
+    : DEFAULT_TITLE;
+  document.title = title;
 });
 
 export default router;
