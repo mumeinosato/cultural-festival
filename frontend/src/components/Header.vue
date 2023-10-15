@@ -1,7 +1,7 @@
 <template>
     <header>
       <div class="row">
-        <router-link to="/">Top</router-link>
+        <router-link to="/">ホーム</router-link>
         <router-link to="/profile">Profile</router-link>
         <router-link to="/contact">Contact</router-link>
       </div>
