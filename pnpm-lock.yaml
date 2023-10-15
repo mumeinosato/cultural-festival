@@ -55,8 +55,8 @@ importers:
         specifier: ^7.12.16
         version: 7.12.16(@babel/core@7.12.16)(eslint@7.32.0)
       '@vue/cli-plugin-babel':
-        specifier: ~5.0.0
-        version: 5.0.0(@vue/cli-service@5.0.1)(core-js@3.32.1)(vue@3.3.4)
+        specifier: ~5.0.8
+        version: 5.0.8(@vue/cli-service@5.0.1)(core-js@3.32.1)(vue@3.3.4)
       '@vue/cli-plugin-eslint':
         specifier: ~5.0.0
         version: 5.0.0(@vue/cli-service@5.0.1)(eslint@7.32.0)
@@ -401,6 +401,7 @@ packages:
   /@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.12.16):
     resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -1850,8 +1851,8 @@ packages:
     resolution: {integrity: sha512-KmtievE/B4kcXp6SuM2gzsnSd8WebkQpg3XaB6GmFh1BJGRqa1UiW9up7L/Q67uOdTigHxr5Ar2lZms4RcDjwQ==}
     dev: true
 
-  /@vue/cli-plugin-babel@5.0.0(@vue/cli-service@5.0.1)(core-js@3.32.1)(vue@3.3.4):
-    resolution: {integrity: sha512-7otBeEWbv2IBbuDNrGdYpe2+RjnG4jYrsak8zW2LCQJaQhCIvkPEOBF3YEsgBfFvssAwpl0ySOXvNPIQXGhBQA==}
+  /@vue/cli-plugin-babel@5.0.8(@vue/cli-service@5.0.1)(core-js@3.32.1)(vue@3.3.4):
+    resolution: {integrity: sha512-a4qqkml3FAJ3auqB2kN2EMPocb/iu0ykeELwed+9B1c1nQ1HKgslKMHMPavYx3Cd/QAx2mBD4hwKBqZXEI/CsQ==}
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
