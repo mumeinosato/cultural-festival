@@ -1,41 +1,27 @@
 <template>
-    <header>
-      <div class="row">
-        <router-link to="/">ホーム</router-link>
-        <router-link to="/profile">Profile</router-link>
-        <router-link to="/contact">Contact</router-link>
-      </div>
-    </header>
-  </template>
+  <header>
+    <nav>
+      <ul class="main-nav">
+        <li><router-link to="/"><img src="../assets/logo.png"></router-link></li>
+        <li><router-link to="/">ホーム</router-link></li>
+        <li><router-link to="/schedule">スケジュール</router-link></li>
+        <li><router-link to="/group">出展</router-link></li>
+        <li><router-link to="/map">マップ</router-link></li>
+        <li><router-link to="/attention">注意事項</router-link></li>
+      </ul>
+    </nav>
+  </header>
+</template>
   
   <script>
-  export default {
-    data () {
-      return {
-        title: "ヘッダー"
-      }
-    }
-  }
-  </script>
+export default {
+  data() {
+    return {
+      title: "ヘッダー",
+    };
+  },
+};
+</script>
   
   <style scoped>
-  header {
-    padding: 1.8em 5%;
-    background: #778899;
-  }
-  header .row {
-    text-align: right;
-  }
-  header a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 2em;
-  }
-  header a:hover {
-    text-decoration: underline;
-  }
-  h1 {
-    margin: 0;
-    color: #fff;
-  }
-  </style>
+</style>

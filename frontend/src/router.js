@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Index from "@/pages/index";
-import Profile from "@/pages/Profile";
-import Contact from "@/pages/Contact";
+import Schedule from "@/pages/schedule";
+import Group from "@/pages/group";
+import Map from "@/pages/map";
+import Attention from "@/pages/attention";
 
 const routes = [
   {
@@ -11,15 +13,29 @@ const routes = [
     //meta : {title: '文化祭'}
   },
   {
-    path: "/profile",
-    name: "Profile",
-    component: Profile
+    path: "/schedule",
+    name: "Schedule",
+    component: Schedule,
+    meta : {title: 'スケジュール'}
   },
   {
-    path: "/contact",
-    name: "Contact",
-    component: Contact
-  }
+    path: "/group",
+    name: "Group",
+    component: Group,
+    meta : {title: '出展'}
+  },
+  {
+    path: "/map",
+    name: "Map",
+    component: Map,
+    meta : {title: 'マップ'}
+  },
+  {
+    path: "/attention",
+    name: "Attention",
+    component: Attention,
+    meta : {title: '注意事項'}
+  },
 ];
 
 const router = createRouter({
@@ -31,7 +47,7 @@ const DEFAULT_TITLE = '文化祭'
 
 router.afterEach((to) => {
   const title = to.meta.title
-    ? `${to.meta.title} | ${DEFAULT_TITLE}`
+    ? ` ${DEFAULT_TITLE} | ${to.meta.title}`
     : DEFAULT_TITLE;
   document.title = title;
 });
