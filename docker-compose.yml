@@ -1,19 +1,19 @@
 version: '3'
 services:
-  db:
-    image: ./db
-    restart: always
-    volumes:
-      - ./db/mysql_data:/var/lib/mysql
-    entrypoint: 
-      - MYSQL_ROOT_PASSWORD=pass
-    ports:
-      - 3306:3306  
+  #db:
+  #  image: ./db
+  #  restart: always
+  #  volumes:
+  #    - ./db/mysql_data:/var/lib/mysql
+  #  entrypoint: 
+  #    - MYSQL_ROOT_PASSWORD=pass
+  #  ports:
+  #    - 3306:3306  
 
   web:
     build: .
     ports:
       - 8080:8080
       - 3000:3000
-    depends_on:
-      - db  
+    #depends_on:
+    #  - db  
