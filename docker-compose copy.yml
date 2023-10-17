@@ -1,0 +1,9 @@
+version: '3'
+services:
+  phpmyadmin:
+    image: phpmyadmin
+    depends:
+      - db
+    environment:
+    ports:
+      - "8005:80"  
