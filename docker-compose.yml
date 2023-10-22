@@ -14,6 +14,13 @@ services:
       - MYSQL_USER=user
       - MYSQL_PASSWORD=pwd
 
+  phpmyadmin:
+    image: phpmyadmin
+    depends:
+      - db
+    ports:
+      - 8005:80  
+
   web:
     build: cultural-festival
     ports:
