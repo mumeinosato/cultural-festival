@@ -3,7 +3,7 @@ import Index from "@/pages/index";
 import Schedule from "@/pages/schedule";
 import Group from "@/pages/group";
 import Map from "@/pages/map";
-import Attention from "@/pages/attention";
+import Attention from "@/pages/notice";
 
 const routes = [
   {
@@ -31,9 +31,9 @@ const routes = [
     meta : {title: 'マップ'}
   },
   {
-    path: "/attention",
-    name: "Attention",
-    component: Attention,
+    path: "/notice",
+    name: "Notice",
+    component: Notice,
     meta : {title: '注意事項'}
   },
 ];

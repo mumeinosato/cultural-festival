@@ -7,7 +7,7 @@
         <li><router-link to="/schedule">スケジュール</router-link></li>
         <li><router-link to="/group">出展</router-link></li>
         <li><router-link to="/map">マップ</router-link></li>
-        <li><router-link to="/attention">注意事項</router-link></li>
+        <li><router-link to="/notice">注意事項</router-link></li>
       </ul>
     </nav>
   </header>
