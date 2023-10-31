@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pnpm -r run start",
     "install": "pnpm -r install",
-    "update": "pnpm -r update"
+    "update": "pnpm update"
   },
   "keywords": [],
   "author": "",
