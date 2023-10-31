@@ -3,7 +3,7 @@ import Index from "@/pages/index";
 import Schedule from "@/pages/schedule";
 import Group from "@/pages/group";
 import Map from "@/pages/map";
-import Attention from "@/pages/notice";
+import Notice from "@/pages/notice";
 
 const routes = [
   {
