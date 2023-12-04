@@ -14,8 +14,8 @@ importers:
         specifier: ^5.0.0
         version: 5.8.0
       '@fastify/cors':
-        specifier: ^8.3.0
-        version: 8.4.1
+        specifier: ^8.4.2
+        version: 8.4.2
       '@fastify/sensible':
         specifier: ^5.0.0
         version: 5.5.0
@@ -1401,8 +1401,8 @@ packages:
     resolution: {integrity: sha512-bF86vl+1Kk91S41WIL9NrKhcugGQg/cQ959aTaombkCjA+9YAbgVCKKu2lRqtMsosDZ0CNRfVnaLYoHQIDUI2A==}
     dev: false
 
-  /@fastify/cors@8.4.1:
-    resolution: {integrity: sha512-iYQJtrY3pFiDS5mo5zRaudzg2OcUdJ96PD6xfkKOOEilly5nnrFZx/W6Sce2T79xxlEn2qpU3t5+qS2phS369w==}
+  /@fastify/cors@8.4.2:
+    resolution: {integrity: sha512-IVynbcPG9eWiJ0P/A1B+KynmiU/yTYbu3ooBUSIeHfca/N1XLb9nIJVCws+YTr2q63MA8Y6QLeXQczEv4npM9g==}
     dependencies:
       fastify-plugin: 4.5.1
       mnemonist: 0.39.5
